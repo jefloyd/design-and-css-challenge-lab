@@ -16,6 +16,62 @@ Developer @GA in NYC
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
 }
+header {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 100%;
+}
+
+.relaxr{
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 20px;
+  padding-left: 70px;
+}
+
+.mind{
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.now{
+  color: navy;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto;
+  /*margin-left: 600px;*/
+  /*margin-top: 40px;*/
+  /*font-weight: 600px;*/
+  font-size: 14px;
+  background-color: yellow;
+  background-size: 5px;
+  border-radius: 5px;
+}
+
+.get{
+  width: 100%;
+}
+
+.benefits{
+  font-weight: 600 px;
+  font-size: 20px;
+  text-align: left;
+  padding: 30px;
+}
+
+.description{
+  font-size: 13px;
+}
+
+.testimonial{
+  text-align: center;
+
+}
+.Amanda{
+  text-align: center;
+}
 
 /* Clear fix hack */
 .clearfix:after {
@@ -49,7 +105,7 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: "Open Sans", sans-serif;
 }
 
 
@@ -65,10 +121,6 @@ body {
 
 }
 
-header {
-  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-}
 
 footer {
 
