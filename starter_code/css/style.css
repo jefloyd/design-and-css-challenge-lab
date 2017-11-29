@@ -66,11 +66,23 @@ header {
 }
 
 .testimonial{
+  color: white;
   text-align: center;
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 100%;
 
 }
 .Amanda{
+  color: white;
   text-align: center;
+}
+.sign{
+  text-align: center;
+  color: white;
+  background: navy;
+  padding: 10px 10px 10px 10px;
+
 }
 
 /* Clear fix hack */
@@ -122,7 +134,7 @@ body {
 }
 
 
-footer {
+footer 
 
 }
 
