@@ -55,7 +55,7 @@ header {
 }
 
 .benefits{
-  font-weight: 600 px;
+  font-weight:600;
   font-size: 20px;
   text-align: left;
   padding: 30px;
@@ -65,17 +65,29 @@ header {
   font-size: 13px;
 }
 
-.testimonial{
+#Amanda{
   color: white;
   text-align: center;
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-  background-size: cover;
-  height: 100%;
+  font-style: bold;
+}
+
+#list{
 
 }
-.Amanda{
+
+#testimonial{
   color: white;
+  padding: 40px;
+  font-style: italic;
   text-align: center;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 95%;
+}
+
+#sign1{
+  background: yellow;
+  padding: 15px;
 }
 .sign{
   text-align: center;
@@ -126,15 +138,25 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+  #container {
   width: 100%;
   margin: auto;
   height: 500px;
 
 }
 
+#logo{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  display:inline-block;
+}
 
-footer 
+footer{
+  background: #050f22;
+  height: 150px;
+}
 
 }
 
