@@ -50,6 +50,10 @@ header {
   border-radius: 5px;
 }
 
+ul{
+  top-margin:10px;
+}
+
 .get{
   width: 100%;
 }
@@ -63,6 +67,8 @@ header {
 
 .description{
   font-size: 13px;
+  padding-bottom:15px;
+  padding-left:15px;
 }
 
 #Amanda{
